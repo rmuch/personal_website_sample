@@ -1,0 +1,11 @@
+{{define "menu"}}
+<nav>
+    <ul>
+        <li class="title">example.com</li>
+		<li>{{menuLink "/" "Home" .CurrentURL}}</li>
+		<li>{{menuLink "/projects" "Projects" .CurrentURL}}</li>
+		<li>{{menuLink "/about" "About Me" .CurrentURL}}</li>
+        <li><a href="#" target="_blank">Off-site link</a></li>
+    </ul>
+</nav>
+{{end}}

@@ -1,0 +1,127 @@
+::selection {
+    background: #aa66cc;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #aa66cc;
+    color: #ffffff;
+}
+
+blockquote {
+    background-color: #f7f7f7;
+
+    border-left: #9933cc;
+    border-left-width: 2px;
+    border-left-style: solid;
+
+    padding-left: 6px;
+    padding-top: 4px; padding-bottom: 6px;
+    margin-left: 0px; margin-right: 0px;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.header { clear: both;float: none; }
+
+pre, code {
+    font-family: "Consolas", monospace; /* TODO: change to Inconsolata or something nice */
+    font-size: medium;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    /* background-color: #d8e9c7; */
+    background-color: #aa66cc;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+    color: #000000;
+    /*background: #f6f6f6;*/
+    background: #ffffff;
+    margin: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.header nav {
+    width: 960px;
+    margin: auto;
+
+    height: 40px;
+}
+
+.header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none outside none;
+}
+
+.header nav ul li {
+    float: left;
+    line-height: 1;
+}
+
+.header nav ul li.title {
+    padding: 16px;
+    padding-left: 0;
+    color: #000000;
+}
+
+.header nav ul li a {
+    float: left;
+    padding: 16px;
+
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #9933cc;
+    background-color: #ffffff;
+
+    border-bottom: 4px #ffffff solid;
+}
+
+.header nav ul li a:hover {
+    color: #000000;
+    background-color: #ffffff;
+
+    border-bottom: 4px #9933cc solid;
+}
+
+.header nav ul li a.active {
+    background-color: #ffffff;
+    color: #000000;
+
+    border-bottom: 4px #eeeeee solid;
+}
+
+.footer {
+    border-top: 2px solid #9933cc;
+
+    text-align: right;
+
+    font-size: small;
+
+    padding-top: 6px; padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+.footer { text-transform: lowercase; }

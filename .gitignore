@@ -1,0 +1,10 @@
+# exclude build directories
+bin/
+pkg/
+
+# log directories
+log/
+logs/
+
+# deploy script working directory
+deploy/
